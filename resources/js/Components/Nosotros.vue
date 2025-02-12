@@ -1,12 +1,12 @@
 <template>
     <!-- /resources/js/Components/Nosotros.vue -->
     <div>
-      <h1>Hola desde nosotros</h1>
+        <h1>Hola desde nosotros</h1>
     </div>
-  </template>
+</template>
 
-  <script>
-  export default {
+<script>
+export default {
 
-  }
-  </script>
+}
+</script>

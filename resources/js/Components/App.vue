@@ -1,25 +1,25 @@
 <template>
     <div>
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <router-link to="/inicio">Inicio</router-link>
-            </li>
-            <li>
-              <router-link to="/nosotros">Nosotros</router-link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <router-view></router-view>
-      </main>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <router-link to="/inicio">Inicio</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/nosotros">Nosotros</router-link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <router-view></router-view>
+        </main>
     </div>
-  </template>
+</template>
 
-  <script>
-  export default {
+<script>
+export default {
     data: () => ({}),
-  };
-  </script>
+};
+</script>
